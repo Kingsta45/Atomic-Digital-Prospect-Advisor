@@ -38,6 +38,7 @@ Simple desktop GUI (`gui.py`): Enter a prospect name and one or more website URL
 
 Create a .env file in the project root:
 `DEEPSEEK_API_KEY=your-key-here`
+
 `DEEPSEEK_MODEL=deepseek-v4-flash`
 
 Run:
@@ -47,6 +48,6 @@ Run:
 
 ## Notes
 
-• Scraping is limited to a prospect's own public website or websites that have commented or spoke about Atomic Digital. No LinkedIn scraping or login-gated data, by design.
+• Scraping is limited to a prospect's own public website or websites that have commented or spoke about Atomic Digital. No LinkedIn scraping or login-gated data by design.
 
 • This is a pre-meeting prep aid, not investment advice.
