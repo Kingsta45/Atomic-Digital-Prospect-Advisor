@@ -1,0 +1,99 @@
+{
+  "company": "Atomic Digital",
+  "description": "Market-neutral, multi-strategy digital asset hedge fund. 2-year track record with a 27% average annual return and a 4.0+ Sharpe ratio since inception.",
+  "track_record_headline": {
+    "average_annual_return": "27%",
+    "sharpe_ratio_since_inception": "4.0+",
+    "years_track_record": 2
+  },
+  "products": {
+    "fund": {
+      "name": "Atomic Digital Market Neutral Fund",
+      "structure": "USD-denominated flagship fund",
+      "strategy": "Market-neutral, multi-strategy fund targeting stable, risk-adjusted performance",
+      "track_record": "2-year track record, 27% average annual return, Sharpe ratio 4.0+ since inception",
+      "denomination": "USD",
+      "liquidity": "Monthly",
+      "minimum_investment": "$100,000",
+      "best_for": [
+        "Investors wanting USD-denominated exposure to a market-neutral, multi-strategy fund",
+        "Comfortable with monthly liquidity and a turnkey fund structure",
+        "Ticket sizes from $100K"
+      ],
+      "not_for": [
+        "Investors who want to keep exposure/returns BTC-denominated",
+        "Those needing more frequent than monthly liquidity",
+        "Investors wanting a bespoke/customized mandate"
+      ]
+    },
+    "btc_fund": {
+      "name": "Bitcoin Market Neutral Fund",
+      "structure": "BTC-denominated share class of the flagship Market Neutral Fund",
+      "strategy": "Same market-neutral, multi-strategy approach as the flagship fund, denominated and settled in BTC",
+      "track_record": "Same underlying strategy track record as the flagship fund — 2 years, 27% average annual return, Sharpe ratio 4.0+ since inception",
+      "denomination": "BTC",
+      "liquidity": "Monthly",
+      "minimum_investment": "100,000 USD equivalent",
+      "best_for": [
+        "Crypto-native investors who hold BTC as their base currency of reference",
+        "Those who want gains/exposure to stay BTC-denominated rather than converting to USD",
+        "Comfortable with monthly liquidity, $100K+ ticket"
+      ],
+      "not_for": [
+        "Investors who want USD-denominated reporting and returns",
+        "Those needing more frequent liquidity",
+        "Investors wanting a bespoke mandate"
+      ]
+    },
+    "sma": {
+      "name": "Separately Managed Accounts (SMA)",
+      "structure": "Customised strategies and terms for institutional and large private clients",
+      "strategy": "Tailored/bespoke mandate built around the client's specific requirements, drawing on Atomic Digital's core market-neutral strategy",
+      "track_record": "Built on Atomic Digital's core strategy track record (2 years, 27% average annual return, Sharpe 4.0+ since inception)",
+      "denomination": "USD",
+      "liquidity": "Monthly",
+      "minimum_investment": "Not publicly listed — institutional/large private clients, terms negotiated directly (likely above the $100K fund minimum)",
+      "best_for": [
+        "Institutional and large private clients wanting bespoke strategy/terms",
+        "Sophisticated allocators with their own custody/compliance infrastructure",
+        "Investors wanting a dedicated account rather than a pooled fund vehicle"
+      ],
+      "not_for": [
+        "Smaller allocations where operational overhead isn't justified",
+        "Investors wanting a simple, standardized turnkey product",
+        "Those without existing custodian/compliance relationships"
+      ]
+    }
+  },
+  "evaluation_criteria": {
+    "denomination_preference": {
+      "signal": "Does the prospect hold or report in USD, or are they crypto-native and comfortable holding BTC as a base currency?",
+      "maps_to": {
+        "usd_preferred": "fund",
+        "btc_preferred_or_crypto_native": "btc_fund",
+        "either_but_wants_bespoke": "sma"
+      }
+    },
+    "customization_needs": {
+      "signal": "Do they emphasize bespoke/tailored solutions, or are they comfortable with a standardized fund structure?",
+      "maps_to": {
+        "standardized_ok": "fund or btc_fund",
+        "bespoke_required": "sma"
+      }
+    },
+    "ticket_size": {
+      "signal": "What AUM does the prospect manage, and what's a plausible allocation size?",
+      "maps_to": {
+        "around_100k_to_low_millions": "fund or btc_fund",
+        "large_institutional": "sma"
+      }
+    },
+    "liquidity_needs": {
+      "signal": "All three offerings share monthly liquidity — check whether that's compatible with the prospect's stated liquidity requirements.",
+      "maps_to": {
+        "monthly_acceptable": "fund, btc_fund, or sma",
+        "needs_more_frequent": "none — flag as a mismatch across all three offerings"
+      }
+    }
+  }
+}
