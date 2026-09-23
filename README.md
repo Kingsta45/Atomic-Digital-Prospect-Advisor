@@ -1,6 +1,6 @@
 # Atomic Digital Product Fit Advisor
 
-A desktop tool that researches a prospective investor (family office, fund, wealth manager) from public websites and recommends which Atomic Digital product to pitch them with a scored fit, talking points, objection handling, and data gaps to confirm in the meeting.
+An AI tool that researches a prospective investor (family office, fund, wealth manager) from public websites and recommends which Atomic Digital product to pitch them with a scored fit, talking points, objection handling, and data gaps to confirm in the meeting.
 
 Built as a self-directed project to sharpen BD research for crypto fund allocators
 
