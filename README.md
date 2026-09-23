@@ -37,6 +37,7 @@ Simple desktop GUI (`gui.py`): Enter a prospect name and one or more website URL
 `pip install -r requirements.txt`
 
 Create a .env file in the project root:
+
 `DEEPSEEK_API_KEY=your-key-here`
 
 `DEEPSEEK_MODEL=deepseek-v4-flash`
