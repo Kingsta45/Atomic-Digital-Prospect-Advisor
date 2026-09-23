@@ -23,8 +23,11 @@ Simple desktop GUI (gui.py): Enter a prospect name and one or more website URLs,
 
 ## Tech stack
 • Python, requests + BeautifulSoup for scraping, selenium as a fallback for JS-rendered sites
+
 • DeepSeek API (OpenAI-compatible) for the analysis
+
 • customtkinter for the GUI
+
 • fpdf2 for PDF export
 
 
