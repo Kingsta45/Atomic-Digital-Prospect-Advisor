@@ -4,7 +4,7 @@ A desktop tool that researches a prospective investor (family office, fund, weal
 
 Built as a self-directed project to sharpen BD research for crypto fund allocators
 
---
+
 
 ## What it does
 
@@ -15,7 +15,7 @@ Built as a self-directed project to sharpen BD research for crypto fund allocato
 • Separately Managed Accounts (SMA)
 3. Report: Outputs a structured pre-meeting brief which includes the prospect profile, per-product fit scores with evidence, a primary recommendation, meeting talking points, likely objections, and open data gaps. Exportable as .txt or a formatted .pdf.
 
---
+
 
 ## Interface
 
@@ -27,7 +27,7 @@ Simple desktop GUI (gui.py): Enter a prospect name and one or more website URLs,
 • customtkinter for the GUI
 • fpdf2 for PDF export
 
---
+
 
 ## Setup
 
@@ -40,9 +40,10 @@ DEEPSEEK_MODEL=deepseek-v4-flash
 Run:
 python gui.py
 
--- 
+
 
 ## Notes
 
 • Scraping is limited to a prospect's own public website or websites that have commented or spoke about Atomic Digital. No LinkedIn scraping or login-gated data, by design.
+
 • This is a pre-meeting prep aid, not investment advice.
