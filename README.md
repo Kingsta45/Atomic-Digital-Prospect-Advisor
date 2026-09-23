@@ -13,7 +13,7 @@ Built as a self-directed project to sharpen BD research for crypto fund allocato
 • Market Neutral Fund (USD)
 • Bitcoin Market Neutral Fund (BTC)
 • Separately Managed Accounts (SMA)
-3. Report: Outputs a structured pre-meeting brief which includes the prospect profile, per-product fit scores with evidence, a primary recommendation, meeting talking points, likely objections, and open data gaps. Exportable as .txt or a formatted .pdf.
+3. Report: Outputs a structured pre-meeting brief which includes the prospect profile, per-product fit scores with evidence, a primary recommendation, meeting talking points, likely objections, and open data gaps. Exportable as '.txt' or a formatted '.pdf'.
 
 
 
