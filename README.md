@@ -19,29 +19,29 @@ Built as a self-directed project to sharpen BD research for crypto fund allocato
 
 ## Interface
 
-Simple desktop GUI (gui.py): Enter a prospect name and one or more website URLs, click Run Analysis, review the report, save it.
+Simple desktop GUI (`gui.py`): Enter a prospect name and one or more website URLs, click Run Analysis, review the report, save it.
 
 ## Tech stack
-• Python, requests + BeautifulSoup for scraping, selenium as a fallback for JS-rendered sites
+• Python, `requests` + `BeautifulSoup` for scraping, `selenium` as a fallback for JS-rendered sites
 
 • DeepSeek API (OpenAI-compatible) for the analysis
 
-• customtkinter for the GUI
+• `customtkinter` for the GUI
 
-• fpdf2 for PDF export
+• `fpdf2` for PDF export
 
 
 
 ## Setup
 
-pip install -r requirements.txt 
+`pip install -r requirements.txt`
 
 Create a .env file in the project root:
-DEEPSEEK_API_KEY=your-key-here
-DEEPSEEK_MODEL=deepseek-v4-flash
+`DEEPSEEK_API_KEY=your-key-here`
+`DEEPSEEK_MODEL=deepseek-v4-flash`
 
 Run:
-python gui.py
+`python gui.py`
 
 
 
